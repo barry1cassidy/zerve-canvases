@@ -21,14 +21,36 @@ layers:
     name: hello_print
     parent_id: null
     properties: {}
-    status: 3
+    status: 1
     type: 1
     variables: null
     width: 1600
     x: 0
     y: 0
+  - auto_size: false
+    canvas_id: 2b504e55-8ce9-4a0b-a6db-09905b7d8ee7
+    compute_settings: null
+    description: Outputs a confirmation message indicating the block was successfully
+      created in the current branch.
+    height: 1000
+    id: b32b0ced-9295-4771-9971-6b49f64c3ced
+    layer_id: 6b102047-f5d3-4949-a555-7379daab451f
+    name: python_block
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 1600
+    x: 0
+    y: 500
   canvas_id: 2b504e55-8ce9-4a0b-a6db-09905b7d8ee7
-  edges: []
+  edges:
+  - canvas_id: 2b504e55-8ce9-4a0b-a6db-09905b7d8ee7
+    id: 8066407a-97b7-4ddf-8483-df35d1aa6b55
+    layer_id: 6b102047-f5d3-4949-a555-7379daab451f
+    source: 2c7e5271-95cf-4c75-a8fb-c92f1de6980f
+    target: b32b0ced-9295-4771-9971-6b49f64c3ced
   id: 6b102047-f5d3-4949-a555-7379daab451f
   name: Development
   type: 1
