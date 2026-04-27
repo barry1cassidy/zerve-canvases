@@ -22,7 +22,7 @@ blocks:
 - auto_size: false
   canvas_id: 2b504e55-8ce9-4a0b-a6db-09905b7d8ee7
   compute_settings: null
-  description: ''
+  description: Prints a simple test message to verify block execution and output capability.
   height: 1000
   id: 43c8f941-4631-42ab-aa4e-2a66ad7f6d45
   layer_id: 6b102047-f5d3-4949-a555-7379daab451f
@@ -52,7 +52,28 @@ blocks:
   width: 1600
   x: 0
   y: 500
+- auto_size: false
+  canvas_id: 2b504e55-8ce9-4a0b-a6db-09905b7d8ee7
+  compute_settings: null
+  description: ''
+  height: 1000
+  id: c55a6eec-1f23-4008-a7b7-f73f536fb735
+  layer_id: 6b102047-f5d3-4949-a555-7379daab451f
+  name: python_block_2
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 1500
 edges:
+- canvas_id: 2b504e55-8ce9-4a0b-a6db-09905b7d8ee7
+  id: 4fa7dfb6-b886-45f1-aa6a-2296073a3573
+  layer_id: 6b102047-f5d3-4949-a555-7379daab451f
+  source: 43c8f941-4631-42ab-aa4e-2a66ad7f6d45
+  target: c55a6eec-1f23-4008-a7b7-f73f536fb735
 - canvas_id: 2b504e55-8ce9-4a0b-a6db-09905b7d8ee7
   id: 8066407a-97b7-4ddf-8483-df35d1aa6b55
   layer_id: 6b102047-f5d3-4949-a555-7379daab451f
